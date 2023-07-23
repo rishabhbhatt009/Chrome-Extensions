@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  
+  <body>
+    <template id="li_template">
+      <li>
+        <a>
+          <h3 class="title">Tab Title</h3>
+          <p class="pathname">Tab Pathname</p>
+        </a>
+      </li>
+    </template>
+
+    <p class="header">URL Logger</p>
+    
+    <hr>
+    
+    <div id="buttons_container">
+        <button id="log_button">Log URLs</button>
+        <button id="group_button">Group Tabs</button>
+        <button id="ungroup_button">Ungroup Tabs</button>
+        <button id="openUrlsButton">Open URLs from File</button>
+    </div>
+    
+    <hr>
+    
+    <footer>
+        <p>by Rishabh Bhatt</p>
+    </footer>
+
+    <input type="file" id="fileInput" hidden/>
+    <script src="./popup.js" type="module"></script>
+  </body>
+
+</html>

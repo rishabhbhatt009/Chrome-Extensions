@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "URL Logger",
+    "description": "Saves the URLs of all open tabs",
+    "version": "1.0",
+    
+    "action": {
+      "default_popup": "./popup/popup.html"
+    },
+
+    "permissions": [
+      "tabs",
+      "storage",
+      "tabGroups"
+    ],
+
+    "icons":{
+      "16": "images/RB_16.png",
+      "32": "images/RB_32.png",
+      "48": "images/RB_48.png",
+      "128": "images/RB_128.png"
+    }
+}
+
